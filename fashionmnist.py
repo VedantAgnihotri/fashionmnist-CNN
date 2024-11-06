@@ -9,13 +9,13 @@ transform = transforms.Compose([
     transforms.Normalize((0.5,), (0.5,))
 ])
 
-train_data = datasets.FashionMNIST(root=r"C:\Users\vedant agnihotri\Desktop\Code\Python\ML-DL\pytorch\neuralnetwork\computer vision",
+train_data = datasets.FashionMNIST(root=r"",
                                     train=True, 
                                     download=True, 
                                     transform=transform, 
                                     target_transform=None)
 
-test_data = datasets.FashionMNIST(root=r"C:\Users\vedant agnihotri\Desktop\Code\Python\ML-DL\pytorch\neuralnetwork\computer vision",
+test_data = datasets.FashionMNIST(root=r"",
                                   train=False,
                                   transform=transform,
                                   download=True,
